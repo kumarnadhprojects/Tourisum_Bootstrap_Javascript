@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* =========section1 Start========= */
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.main-heading-sec1 {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.paragraph {
+    color: gray;
+}
+
+.background {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.button {
+    width: 138px;
+    height: 36px;
+    color: white;
+    cursor: pointer;
+    background-color: #22b8bb;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+/* =========section1 End========= */
+
+/* =========section2 Start========= */
+.favoriate-place-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.favoriate-place-card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main-heading-sec2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+
+.favoriate-place-image {
+    margin: 5px;
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.favoriate-place-card-heading {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favoriate-place-card-paragraph {
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favoriate-place-card-inner {
+    padding: 10px;
+}
+
+/* =========section2 End========= */
+
+/* =========section3 Start========= */
+.tajmahal-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+
+.main-heading-sec3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.taj-card {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+
+.taj-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.taj-wrapper {
+    margin: 25px;
+}
+
+.taj-content {
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+/* =========section3 End========= */
+.unorded-list {
+    list-style-type: circle;
+}
+
+.orded-list {
+    list-style-type: lower-alpha;
+}
